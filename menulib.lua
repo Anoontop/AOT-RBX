@@ -31,7 +31,7 @@ local AnoontopLib = {
 local Icons = {}
 
 local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/Anoontop/AOT-Menu-RBX/main/icons.json?token=GHSAT0AAAAAACVEBVJWBAILYB7RS43IGXY6ZU5SPYA")).icons
+	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/Anoontop/AOT-RBX/main/icons.json")).icons
 end)
 
 if not Success then

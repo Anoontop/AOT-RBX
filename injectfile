@@ -1,0 +1,80 @@
+local AnoontopLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Anoontop/AOT-RBX/main/menulib.lua')))()
+local Window = AnoontopLib:MakeWindow({Name = "Anoontop Menu", HidePremium = false, SaveConfig = true, ConfigFolder = "AOT-Menu"})
+
+local Tab = Window:MakeTab({
+    Name = "Aimbot",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+function MakeScriptHub()
+
+end
+
+Tab:AddButton({
+    Name = "Aimbot",
+    Callback = function()
+              print("button pressed")
+            MakeScriptHub()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Anoontop/AOT-RBX/main/aimbot.lua"))()
+      end
+})
+
+local Tab = Window:MakeTab({
+    Name = "Visuals",
+    Icon = "rbxassetid://7733919260",
+    PremiumOnly = false
+})
+
+function MakeScriptHub()
+
+end
+
+Tab:AddButton({
+    Name = "ESP",
+    Callback = function()
+              print("button pressed")
+            MakeScriptHub()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Anoontop/AOT-RBX/main/esp.lua"))()
+      end
+})
+
+local Tab = Window:MakeTab({
+    Name = "Player",
+    Icon = "rbxassetid://7743871002",
+    PremiumOnly = false
+})
+
+function MakeScriptHub()
+
+end
+
+Tab:AddButton({
+    Name = "Fly | Press E to fly",
+    Callback = function()
+              print("button pressed")
+            MakeScriptHub()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Anoontop/AOT-RBX/main/fly.lua"))()
+      end
+})
+
+local Tab = Window:MakeTab({
+    Name = "Other",
+    Icon = "rbxassetid://7733914390",
+    PremiumOnly = false
+})
+
+function MakeScriptHub()
+
+end
+
+Tab:AddButton({
+    Name = "Fuck Somebody",
+    Callback = function()
+              print("button pressed")
+            MakeScriptHub()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Anoontop/AOT-RBX/main/fly.lua"))()
+      end
+})
+
+AnoontopLib:Init()

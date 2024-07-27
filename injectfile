@@ -73,7 +73,7 @@ Tab:AddButton({
     Callback = function()
               print("button pressed")
             MakeScriptHub()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Anoontop/AOT-RBX/main/fly.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/4gh9/Bang-Script-Gui/main/bang%20gui.lua"))()
       end
 })
 
